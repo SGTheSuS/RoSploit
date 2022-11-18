@@ -98,9 +98,9 @@ local Window = Rayfield:CreateWindow({
         Discord = {
         	Enabled = true,
         	Invite = "FrcthBu7zQ", -- The Discord invite code, do not include discord.gg/
-        	RememberJoins = false -- Set this to false to make them join the discord every time they load it up
+        	RememberJoins = true -- Set this to false to make them join the discord every time they load it up
         },
-	KeySystem = false, -- Set this to true to use our key system
+	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
 		Title = "RoSploit XV",
 		Subtitle = "Key System",
@@ -1012,6 +1012,6 @@ local Tab = Window:CreateTab("Settings", 7072718362) -- Title, Image
 local Button = Tab:CreateButton({
 	Name = "Refresh GUI",
 	Callback = function()
-		-- The function that takes place when the button is pressed
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SGTheSuS/RoSploit/main/InfSploit"))()
 	end,
 })
