@@ -1,5 +1,6 @@
 -- [ InfSploit ] --
-
+-- \ Nor   Ver / --
+--   ---------   --
 
 -- // GUI \\ --
 
@@ -87,13 +88,13 @@ Rayfield:Notify({
 
 
 local Window = Rayfield:CreateWindow({
-	Name = "InfSploit",
+	Name = "InfSploit | Normal Version",
 	LoadingTitle = "Loading",
 	LoadingSubtitle = "Made by SG#6284",
 	ConfigurationSaving = {
 		Enabled = true,
 		FolderName = nil, -- Create a custom folder for your hub/game
-		FileName = "RoSploit"
+		FileName = "RoSploitNor"
 	},
         Discord = {
         	Enabled = true,
@@ -102,10 +103,10 @@ local Window = Rayfield:CreateWindow({
         },
 	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
-		Title = "RoSploit XV",
+		Title = "RoSploit XV | Normal Version",
 		Subtitle = "Key System",
 		Note = "Join the discord (discord.io/RoSploit)",
-		FileName = "RoSploitKey",
+		FileName = "RoSploitNorKey",
 		SaveKey = true,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
 		Key = "Sub2RoSploit"
